@@ -1,0 +1,11 @@
+.app_background {
+  height: 100vh;
+}
+
+.container {
+  max-width: 614px;
+  height: calc(100vh - 144px);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}

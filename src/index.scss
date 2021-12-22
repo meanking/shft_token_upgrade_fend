@@ -1,0 +1,39 @@
+/* ./src/index.css */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  @font-face {
+    font-display: swap;
+    font-family: NeuzeitGroCon;
+    src: url(./assets/fonts/NeuzeitGro-Bla.ttf) format('ttf');
+  }
+  @font-face {
+    font-display: swap;
+    font-family: NeuzeitGro;
+    font-weight: 600;
+    src: url(./assets/fonts/NeuzeitGro-Bol.ttf) format('ttf');
+  }
+  @font-face {
+    font-display: swap;
+    font-family: NeuzeitGro;
+    src: url(./assets/fonts/NeuzeitGro-Lig.ttf) format('ttf');
+  }
+  @font-face {
+    font-display: swap;
+    font-family: NeuzeitGro;
+    font-weight: 400;
+    src: url(./assets/fonts/NeuzeitGro-Reg.ttf) format('ttf');
+  }
+  @font-face {
+    font-display: swap;
+    font-family: NeuzeitGroCon;
+    src: url(./assets/fonts/NeuzeitGroCon-Bla.ttf) format('ttf');
+  }
+  @font-face {
+    font-display: swap;
+    font-family: NeuzeitGroExt;
+    src: url(./assets/fonts/NeuzeitGroExt-Bla.ttf) format('ttf');
+  }
+}

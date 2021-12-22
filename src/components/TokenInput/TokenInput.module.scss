@@ -1,0 +1,12 @@
+.token_input {
+  @apply  font-bold text-gray-700 placeholder-gray-700 bg-transparent border-b-2 outline-none border-none w-full;
+}
+
+.input_wrapper {
+  @apply bg-gray-1000 rounded-md p-3 flex text-gray-700 font-bold;
+  border: 1px solid #d1d5db;
+}
+
+.label {
+  @apply ml-4 flex items-center whitespace-nowrap;
+}
